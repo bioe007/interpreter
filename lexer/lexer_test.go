@@ -103,6 +103,12 @@ if else fn true false return
 		{token.TRUE, "true"},
 		{token.FALSE, "false"},
 		{token.RETURN, "return"},
+		{token.INT, "10"},
+		{token.EQ, "=="},
+		{token.INT, "10"},
+		{token.INT, "9"},
+		{token.NOT_EQ, "!="},
+		{token.INT, "10"},
 		{token.EOF, ""},
 	}
 	l := New(input)
